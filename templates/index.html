@@ -1,0 +1,33 @@
+<!--
+Created on Sun Aug 25 15:07:36 2019
+
+@author: LSK
+-->
+
+<html>
+  <head>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+        
+  </head>
+  <body>
+    <div id="console"></div>
+    <hr />
+    <!-- Add an image that we will use to test -->
+    <!--<img id="img" crossOrigin src="https://images.pexels.com/photos/1115090/pexels-photo-1115090.jpeg" width=227 height=227/>-->
+    <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+    
+    <button id="class-a">Add A</button>
+    <button id="class-b">Add B</button>
+    <button id="class-c">Add C</button>
+    <button id="predict">Predict</button>
+    
+    <!-- Load index.js after the content of the page -->
+    <script src="{{ url_for('static', filename='index.js') }}"> </script>
+    
+   
+    
+  </body>
+</html>
