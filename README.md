@@ -22,7 +22,7 @@ This app build using Flask and tensorflow Js
   5) Bring the images of your choice to the webcam and click on respective class ( A or B or C) for the model to learn.
     50 training images for each class would give better prediction
   
-  6) Now for testing, capture the image using webcam and click on Predict, the prediction will be displayed above the image. 
+  6) Now for testing, capture the image using webcam and click on Predict, the predicted output can be seen on the page
   
  <b> WHAT: </b>
       In this Example, App is being trained using the user defined images and predicting the new images through webcam.
