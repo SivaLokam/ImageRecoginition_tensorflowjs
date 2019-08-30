@@ -22,9 +22,10 @@ This app build using Flask and tensorflow Js
   5) Now for testing, capture the image using webcam and click on Predict, the prediction will be displayed above the image. 
   
  <b> WHAT: </b>
-      In this Example, App is being trained using the user defined images and predicting the new images throug webcam.
+      In this Example, App is being trained using the user defined images and predicting the new images through webcam.
       
       The image captures is fed through Mobilenet model for the predictions and the output is fed through a KNN classifier 
       to predict one among the three classes
  
 
+ ![alt text](http://url/to/img.png)
